@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.main {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.page-header{
+    width: 300px;
+    margin: 0 ;
+    padding: 20px 0;
+    font-size: 40px;
+    word-break:keep-all;
+    white-space:nowrap;
+    
+    
+    
+}
+.your-guess{
+    width: 300px;
+    margin: 0 ;
+    padding: 20px 0;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px #FF0000;
+}
+.your-rack{
+    width: 300px;
+    margin: 0 ;
+    padding: 20px 0;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px #FF0000;
+}
+.your-score{
+    width: 300px;
+    margin: 0 ;
+    padding: 20px 0;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px #FF0000;
+}
+.remainingword{
+    width: 300px;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px #FF0000;
+}
+
+.starts {
+    width: 200px;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+.start-button{
+    background-color: #660099;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.rack > button {
+    margin: 0 5px;
+}
+
+.rack-button{
+    background-color: lightyellow;
+    border: none;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.check-button{
+    background-color: lightgreen;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.get-point{
+    width: 300px;
+    margin: 0 ;
+    padding: 20px 0;
+    font-size: 20px;
+    color:#FFFF00;
+}
+.guess-text {
+    display: none;
+    margin-top: 10px;
+}
+
+.guess-letters {
+    width: 300px;
+    margin: 0 ;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.guess-result {
+    width: 300px;
+    margin: 0 ;
+    padding: 20px 0;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px #FF00FF;
+}
+.words-remaining{
+    width: 300px;
+    margin: 0 ;
+    padding: 20px 0;
+    font-size: 20px;
+    color:#FFFF00;
+}
+.you-won{
+    width: 300px;
+    margin: 0 ;
+    padding: 20px 0;
+    font-size: 50px;
+    color: red;
+    
+}
+
+.you-lose{
+    width: 300px;
+    margin: 0 ;
+    padding: 20px 0;
+    font-size: 50px;
+    color:red; 
+    
+}
